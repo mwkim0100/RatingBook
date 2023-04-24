@@ -71,6 +71,7 @@ public class Machine {
                 }
 
             }
+            //등록된 책이 없는데 전체 책을 검색하는 경우
             if(select==3 && Book.count==0){
                 System.out.println("등록된 책이 없습니다.");
             }
